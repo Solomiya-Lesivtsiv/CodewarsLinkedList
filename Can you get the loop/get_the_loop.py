@@ -1,3 +1,6 @@
+class Node:
+    def __init__(self, next=None):
+        self.next = next
 def loop_size(node):
     slow = node
     fast = node
